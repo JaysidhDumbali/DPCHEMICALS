@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | D.P.CHEMICALS</title>
+    <link rel="stylesheet" href="css/modern-reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .page-header {
+            background-color: var(--secondary-color);
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .breadcrumb {
+            color: var(--text-medium);
+            font-size: 0.9rem;
+        }
+
+        .breadcrumb a {
+            color: var(--text-dark);
+            font-weight: 500;
+        }
+
+        .breadcrumb a:hover {
+            color: var(--primary-color);
+        }
+
+        .content-section {
+            padding: 5rem 0;
+        }
+
+        .leader-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid #eee;
+            margin-top: 2rem;
+        }
+
+        .client-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .client-badge {
+            background: white;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: var(--shadow-sm);
+            font-weight: 600;
+            color: var(--text-medium);
+            border: 1px solid #eee;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="DPC Logo.png" alt="DPC Logo">
+                <div class="logo-text">
+                    <span class="logo-title">D.P.CHEMICALS</span>
+                    <span class="logo-subtitle">Excellence in Excipients</span>
+                </div>
+            </a>
+            <button class="mobile-menu-btn" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="text-primary">About Us</a></li>
+                <li class="dropdown">
+                    <a href="products.html">Products <i class="fas fa-chevron-down"
+                            style="font-size: 0.8rem; margin-left: 4px;"></i></a>
+                    <div class="dropdown-content">
+                        <a href="sodium-starch-glycolate.html">Sodium Starch Glycolate (SSG)</a>
+                        <a href="pregelatinized-starch.html">Pregelatinized Starch (PGS)</a>
+                    </div>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1>About D.P. Chemicals</h1>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / About Us
+            </div>
+        </div>
+    </header>
+
+    <!-- Company Profile -->
+    <section class="content-section">
+        <div class="container">
+            <div style="max-width: 800px; margin: 0 auto;">
+                <h2 style="margin-bottom: 1.5rem; color: var(--primary-dark);">Who We Are</h2>
+                <p style="margin-bottom: 1.5rem; line-height: 1.8; color: var(--text-medium);">
+                    <strong>D.P.CHEMICALS</strong> is a premier manufacturing unit registered with the Government of
+                    Maharashtra as a Small Scale Industry. We specialize in the production of high-quality
+                    pharmaceutical excipients that serve as import substitutes, matching distinct international
+                    standards such as USP/NF, B.P., E.P., and J.P.
+                </p>
+                <p style="margin-bottom: 1.5rem; line-height: 1.8; color: var(--text-medium);">
+                    Our manufacturing facility is located at E-10, M.I.D.C. Akkalkot Road, Solapur, where we employ
+                    rigorous quality control processes to ensure every batch meets the precise needs of our clients.
+                </p>
+
+                <div class="leader-card">
+                    <div style="display: flex; gap: 1.5rem; align-items: start;">
+                        <div
+                            style="background: var(--secondary-color); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                            <i class="fas fa-user-tie" style="font-size: 1.8rem; color: var(--primary-color);"></i>
+                        </div>
+                        <div>
+                            <h3 style="margin-bottom: 0.5rem; font-size: 1.3rem;">Mr. Sidheshwar Dumbali</h3>
+                            <p
+                                style="color: var(--primary-light); font-weight: 500; font-size: 0.9rem; margin-bottom: 1rem;">
+                                Chief Managing Director</p>
+                            <p style="font-size: 0.95rem; line-height: 1.6;">
+                                A qualified expert holding a <strong>B.Sc. in Chemistry</strong> and <strong>B.E. in
+                                    Mechanical Engineering</strong>. His technical expertise guides the company's
+                                innovation and commitment to quality.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards & Recognition -->
+    <section class="content-section" style="background-color: var(--bg-off-white);">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+                <div>
+                    <h2 style="margin-bottom: 1.5rem; color: var(--text-dark);">Recognized Excellence</h2>
+                    <p style="margin-bottom: 1.5rem; line-height: 1.8; color: var(--text-medium);">
+                        Our dedication to quality has been recognized by the industry. We are proud recipients of the
+                        <strong>"Manufacturer of Import Substitute"</strong> award, bestowed by the Chamber of Commerce
+                        and Industry, Solapur.
+                    </p>
+                    <p style="line-height: 1.8; color: var(--text-medium);">
+                        This accolade validates our mission to produce world-class excipients locally, adhering to
+                        global standards.
+                    </p>
+                </div>
+                <div style="text-align: center;">
+                    <div
+                        style="display: inline-block; background: white; padding: 2rem; border-radius: 50%; box-shadow: var(--shadow-md);">
+                        <i class="fas fa-trophy" style="font-size: 4rem; color: #FFB300;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clientele -->
+    <section class="content-section">
+        <div class="container text-center">
+            <h2 style="margin-bottom: 1rem;">Our Valued Clients</h2>
+            <p style="max-width: 600px; margin: 0 auto 3rem; color: var(--text-medium);">
+                We are proud to be the trusted excipient supplier for some of the biggest names in the pharmaceutical
+                industry.
+            </p>
+
+            <div class="client-grid">
+                <div class="client-badge">GSK</div>
+                <div class="client-badge">Ranbaxy</div>
+                <div class="client-badge">Roche</div>
+                <div class="client-badge">Allembic Pharma</div>
+                <div class="client-badge">SmithKline Beecham</div>
+                <div class="client-badge">Wallace Group</div>
+                <div class="client-badge">Acme Life Sciences</div>
+                <div class="client-badge">Remidex</div>
+                <div class="client-badge">Deys</div>
+                <div class="client-badge">HAL</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col" style="flex: 2;">
+                    <h4>D.P.CHEMICALS</h4>
+                    <p style="color: #B0BEC5; line-height: 1.6; margin-bottom: 1.5rem;">
+                        A trusted partner in the pharmaceutical industry, providing high-quality excipients with a
+                        commitment to excellence and innovation.
+                    </p>
+                    <div style="display: flex; gap: 1rem;">
+                        <a href="https://www.linkedin.com/in/sidheshwar-dumbali-2a76254a/" target="_blank"
+                            style="color: white; font-size: 1.2rem;"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li style="color: #B0BEC5;"><i class="fas fa-map-marker-alt"
+                                style="margin-right: 10px; color: var(--primary-color);"></i> 196/6, New Budhawar Peth,
+                            Solapur - 413002</li>
+                        <li style="color: #B0BEC5;"><i class="fas fa-envelope"
+                                style="margin-right: 10px; color: var(--primary-color);"></i>
+                            sidheshwar.dumbali@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 D.P.CHEMICALS. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
